@@ -30,6 +30,7 @@ public class Advisor {
     @OneToMany(mappedBy = "advisor")
     private List<Client> clients;
 
+    // No-argument constructor
     protected Advisor() {
 
     }

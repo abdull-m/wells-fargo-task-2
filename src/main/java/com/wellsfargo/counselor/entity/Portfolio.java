@@ -20,6 +20,7 @@ public class Portfolio {
     @OneToMany(mappedBy = "portfolio")
     private List<Security> securities;
 
+    // No-argument constructor
     public Portfolio(){
 
     }

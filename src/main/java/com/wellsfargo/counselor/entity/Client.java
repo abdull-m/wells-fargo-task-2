@@ -32,6 +32,7 @@ public class Client {
     @OneToMany(mappedBy = "client")
     private List<Portfolio> portfolios;
 
+    // No-argument constructor
     public Client(){
 
     }

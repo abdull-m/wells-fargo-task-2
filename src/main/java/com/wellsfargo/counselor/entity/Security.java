@@ -29,6 +29,7 @@ public class Security {
     @Column(nullable = false)
     private int quantity;
 
+    // No-argument constructor
     public Security(){
 
     }
